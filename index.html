@@ -43,7 +43,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="assets/images/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
@@ -72,14 +72,14 @@
         </div>
     </nav>
 
-    <div class="container-fluid hero-section text-center">
+    <div class="container-fluid hero-section text-center" style="margin-top: 70px;">
         <h1 class="display-4">Welcome to Seven Seas Spa</h1>
         <p class="lead">We are dedicated to improving your overall wellbeing.</p>
         <a href="#" class="btn btn-light btn-lg">Contact Us</a>
     </div>
 
     <div class="container my-5">
-        <h2 class="text-center mb-4">Our Services</h2>
+        <h2 class="mb-4">Our Services</h2>
         <div class="row">
             <div class="col-md-3">
                 <div class="card">
@@ -120,9 +120,59 @@
         </div>
     </div>
 
-    <script src="https://fonts.googleapis.com/css2?family=Handle&display=swap"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"></script>
+    <div class="container my-5">
+        <h2 class="mb-4">Wellness Tips</h2>
+        <p class="text-center">Living a healthy lifestyle doesn't have to be hard. Here are some tips to help you improve your overall wellbeing.</p>
+        <ul class="list-unstyled">
+            <li><strong>Stay Hydrated</strong>: Drinking enough water is essential for maintaining your body's functions and overall health.</li>
+            <li><strong>Eat Balanced Meals</strong>: Incorporate a variety of fruits, vegetables, lean proteins, and whole grains into your diet.</li>
+            <li><strong>Exercise Regularly</strong>: Aim for at least 30 minutes of moderate physical activity most days of the week.</li>
+            <li><strong>Get Enough Sleep</strong>: Ensure you get 7-9 hours of quality sleep each night to help your body recover and function optimally.</li>
+            <li><strong>Practice Mindfulness</strong>: Take time each day to relax and practice mindfulness or meditation to reduce stress and improve mental clarity.</li>
+        </ul>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="mb-4">Testimonials</h2>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <img src="assets/images/headshots/john_doe.png" class="rounded-circle" alt="Person 1" style="width: 150px; height: 150px;">
+                    <blockquote class="blockquote mt-3">
+                        <p class="mb-0">"The yoga classes have transformed my life. I feel more flexible and at peace."</p>
+                        <br>
+                        <footer class="blockquote-footer">John Doe</footer>
+                    </blockquote>
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="assets/images/headshots/jane_smith.png" class="rounded-circle" alt="Person 2" style="width: 150px; height: 150px;">
+                    <blockquote class="blockquote mt-3">
+                        <p class="mb-0">"The nutritional advice I received was spot on. I've never felt healthier."</p>
+                        <br>
+                        <footer class="blockquote-footer">Jane Smith</footer>
+                    </blockquote>
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="assets/images/headshots/emily_johnson.png" class="rounded-circle" alt="Person 3" style="width: 150px; height: 150px;">
+                    <blockquote class="blockquote mt-3">
+                        <p class="mb-0">"The mental health support has been a game-changer for me. I feel more in control of my life."</p>
+                        <br>
+                        <footer class="blockquote-footer mt-3">Emily Johnson</footer>
+                    </blockquote>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 
