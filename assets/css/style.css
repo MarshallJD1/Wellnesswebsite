@@ -1,0 +1,29 @@
+.navbar {
+    background-color: white;
+}
+.navbar-brand, .nav-link {
+    color: #3b2f2f;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.nav-link.active {
+    font-weight: bold;
+}
+.card {
+    background-color: white;
+}
+.hero-section, .services-section, .tips-section, .testimonials-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/hero.png') no-repeat center center;
+    background-size: cover;
+    color: #FFEBD4;
+    padding: 100px 0;
+}
+
+.hero-section h1, .services-section h2, .tips-section h2, .testimonials-section h2 {
+    font-family: 'Handlee', cursive;
+}
+
+.btn {
+    color: #3B2F2F;
+}
