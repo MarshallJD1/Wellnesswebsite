@@ -2,6 +2,7 @@
 
 .navbar {
     background-color: white;
+    padding: 0.5rem 1rem;
 }
 .navbar-brand, .nav-link {
     color: #3b2f2f;
@@ -19,14 +20,15 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/hero.png') no-repeat center center;
     background-size: cover;
     color: #FFEBD4;
-    padding: 25px 0;
+    padding: 50px 0;
     
 }
 .services-section, .tips-section, .testimonials-section {
     background-color: white;
     color: #3B2F2F;
-    padding: 25px 0;
+    padding: 50px 0;
     font-size: large;
+    margin-bottom: 20px;
 }
 
 .hero-section h1, .services-section h2, .tips-section h2, .testimonials-section h2 {
